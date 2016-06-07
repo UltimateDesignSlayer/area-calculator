@@ -1,3 +1,7 @@
+import * as CalculatorJs from 'calculator';
+
+CalculatorJs.init();
+
 var Master = (function(){
 
   /**
@@ -18,7 +22,7 @@ var Master = (function(){
 
   return {
     init: function(){
-      bindEvents();
+
     }
   };
 })();

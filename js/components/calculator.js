@@ -1,12 +1,7 @@
-var CalculatorJs = (function(){
-
-  
-
+export function CalculatorJs(){
   return {
     init: function(){
       alert("calc fired");
     }
   };
-})();
-
-CalculatorJs.init();
+}

@@ -33,7 +33,7 @@ http.createServer(function(request, response){
 
   });
 
-  console.log('Server running :: ' + require('my-local-ip')() + ':' + port);
+  console.log('Server running :: ' + port + ':' + port);
 
 }).listen(port);
 
